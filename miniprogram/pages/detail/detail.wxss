@@ -1,0 +1,26 @@
+/* miniprogram/pages/detail/detail.wxss */
+.imgItem{
+  width: 750rpx;
+
+}
+.userInfo{
+  box-sizing: border-box;
+  padding: 44rpx 50rpx 0 50rpx;
+  display: flex;
+  align-items: center;
+}
+.userItem{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+.introduce{
+  padding: 60rpx 50rpx 60rpx 50rpx;
+}
+.userName{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 110rpx;
+  margin-left: 20rpx;
+}

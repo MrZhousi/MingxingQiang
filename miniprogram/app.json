@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/my/my",
+    "pages/addInfo/addInfo",
+    "pages/detail/detail",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "照片墙",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance":0,
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "明星墙",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/detail.png",
+        "selectedIconPath": "images/detail-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,26 @@
+<view class="container">
+  <form class="form" bindsubmit="mySubmit">
+    <view> 姓名：
+      <input name="username"></input>
+    </view>
+    <view> 性别：
+      <radio-group name="sex">
+        <radio value="男" checked>男</radio>
+        <radio value="女">女</radio>
+      </radio-group>
+    </view>
+    <view>
+      <picker mode="region" name="region" bindchange="myChange" value="{{region}}">地址：{{region[0]}}---{{region[1]}}---{{region[2]}}</picker>
+    </view>
+    <view>
+      <image src="../../images/jiahao.png" bindtap="addImg" class="addimg"></image>
+    </view>
+    <view class="imgbox">
+      <image src="{{imgsrc}}" class="showImg" mode="widthFix" wx:if="{{flag}}"></image>
+    </view>
+    <view> 介绍：
+      <textarea name="introduce"></textarea>
+    </view>
+    <button form-type="submit">提交</button>
+  </form>
+</view>

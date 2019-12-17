@@ -1,0 +1,11 @@
+<view class="header">
+  <image class="avatarUrl" src="{{info.avatarUrl}}"></image><button type="default" bindgetuserinfo="getUser" open-type="getUserInfo" wx:if="{{flag}}">请登录</button>
+  <view>{{info.nickName}}</view>
+</view>
+<view class="br"></view>
+<view class="item" bindtap="addInfo">
+  <image class="icon" src="../../images/add-selected.png"></image>添加信息
+</view>
+<view class="item noborder" bindtap="history">
+  <image class="icon" src="../../images/detail-selected.png"></image>历史信息
+</view>

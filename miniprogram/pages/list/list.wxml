@@ -1,0 +1,12 @@
+<view class="container">
+  <view wx:for="{{starArr}}" wx:key="index" class="starItem" id="{{item._id}}" bindtap="goDetail">
+    <view class="imgBox">
+      <image src="{{item.imgsrc}}" mode="aspectFill"class="imgItem"></image>
+    </view>
+    <text class="introduce">{{item.introduce}}</text>
+    <view class="userInfo">
+      <image class="userImg" src="{{item.userInfo.avatarUrl}}"></image>
+      <text>{{item.userInfo.nickName}}</text>
+    </view>
+  </view>
+</view>

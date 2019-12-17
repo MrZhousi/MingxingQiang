@@ -1,0 +1,25 @@
+/* miniprogram/pages/addInfo/addInfo.wxss */
+.container{
+  padding-left:60rpx;
+  padding-top: 40rpx
+}
+input{
+  border: 1rpx solid #000000;
+  width: 600rpx;
+}
+.addimg{
+  width: 150rpx;
+  height: 150rpx
+}
+.showImg{
+  width: 400rpx
+}
+.imgbox{
+  text-align: center;
+}
+textarea{
+  border: 1rpx solid #000000;
+}
+view{
+  margin: 20rpx 0;
+}

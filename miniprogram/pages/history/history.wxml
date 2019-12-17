@@ -1,0 +1,4 @@
+<view class="starInfo" wx:for="{{starInfo}}" wx:key="index">
+  <text class="introduce">{{item.introduce}}</text>
+  <text  data-index="{{index}}" data-imgsrc="{{item.imgsrc}}" id="{{item._id}}" bindtap="del">删除</text>
+</view>

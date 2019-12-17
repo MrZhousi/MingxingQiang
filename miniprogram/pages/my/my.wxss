@@ -1,0 +1,32 @@
+.header{
+  text-align: center;
+  padding: 20rpx;
+  color: #a3a3af;
+}
+.avatarUrl{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin: 10rpx;
+}
+.br{
+  width: 750rpx;
+  height: 18rpx;
+  background: #dbdbdb;
+}
+.item{
+  border-bottom: 2rpx solid #303030;
+  line-height: 130rpx;
+  font-size: 36rpx;
+  padding-left: 30rpx
+}
+.icon{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right:20rpx;
+  position: relative;
+  top: 16rpx 
+}
+.noborder{
+  border: none
+}

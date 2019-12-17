@@ -1,0 +1,12 @@
+<view>
+  <image class="imgItem" mode="widthFix" src="{{dataObj.imgsrc}}"></image>
+  <view class="userInfo">
+    <image class="userItem" mode="widthFix" src="{{dataObj.userInfo.avatarUrl}}"></image>
+    <view class="userName">
+      <text>{{dataObj.userInfo.nickName}}</text>
+      <view>{{dataObj.date}}</view>
+    </view>
+  </view>
+  <view class="introduce">{{dataObj.introduce}}</view>
+
+</view>
